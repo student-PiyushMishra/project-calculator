@@ -106,8 +106,8 @@ body {
         gap: 9rem;
     }
     .funcs>button{
-        height: 7rem;
-        width: 7rem;
+        height: 5rem;
+        width: 5rem;
         font-size: 3rem;
     }
 }
