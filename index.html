@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - By Piyush Mishra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon-modified.png">
+</head>
+
+<body>
+    <div class="calc">
+        <div class="result">
+            <input type="text" readonly>
+        </div>
+        <div class="funcs">
+            <button onclick="appendToInput('+')" class="operator-btn">+</button>
+            <button onclick="appendToInput('7')">7</button>
+            <button onclick="appendToInput('8')">8</button>
+            <button onclick="appendToInput('9')">9</button>
+            <button onclick="appendToInput('-')" class="operator-btn">-</button>
+            <button onclick="appendToInput('4')">4</button>
+            <button onclick="appendToInput('5')">5</button>
+            <button onclick="appendToInput('6')">6</button>
+            <button onclick="appendToInput('*')" class="operator-btn">*</button>
+            <button onclick="appendToInput('1')">1</button>
+            <button onclick="appendToInput('2')">2</button>
+            <button onclick="appendToInput('3')">3</button>
+            <button onclick="appendToInput('/')" class="operator-btn">/</button>
+            <button onclick="appendToInput('0')">0</button>
+            <button onclick="appendToInput('.')">.</button>
+            <button onclick="calculate()" class="equal">=</button>
+            <button class="operator-btn clear-btn">C</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
